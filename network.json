@@ -25,10 +25,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "not assigned",
             "desc": "",
-            "name": "merge.R"
+            "name": "MergeArrests.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-04 17:30:28",
+    "updated_at": "2018-10-04 17:32:46",
     "url": "https://github.com/fall2018-wallace/mark6"
 }
