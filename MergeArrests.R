@@ -1,2 +1,3 @@
 
+str(dfCleanCensus)
 #View(dfCleanCensus)
