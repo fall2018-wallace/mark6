@@ -17,4 +17,4 @@ readStates <- function(states)
 }
 
 
-cleanData <- readStates(read.csv("scprc_est_2017_18_pop_res.csv"))
+cleanData <- readStates(raw_data)
