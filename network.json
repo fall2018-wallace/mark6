@@ -13,6 +13,17 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dfCleanCensus",
+                    "output": "cleanCensus",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "MergeArrests.R"
         }
     ],
     "nodes": [
@@ -31,6 +42,6 @@
             "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-04 17:32:46",
+    "updated_at": "2018-10-04 17:33:40",
     "url": "https://github.com/fall2018-wallace/mark6"
 }
