@@ -1,5 +1,5 @@
 
-#dfStates <- read.csv("scprc_est_2017_18_pop_res.csv")
+dfStates <- read.csv("scprc_est_2017_18_pop_res.csv")
 #dfStates
 
 
@@ -17,5 +17,5 @@ readStates <- function(states)
 }
 
 
-cleanCensus <- readStates(raw_data)
+cleanCensus <- readStates(dfStates)
 str(cleanCensus)
