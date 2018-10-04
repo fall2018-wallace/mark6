@@ -1,6 +1,6 @@
 
-dfStates <- read.csv("scprc_est_2017_18_pop_res.csv")
-dfStates
+#dfStates <- read.csv("scprc_est_2017_18_pop_res.csv")
+#dfStates
 
 
 readStates <- function(states)
@@ -12,4 +12,6 @@ readStates <- function(states)
         states<- states[,-1:-4]
         
         colnames(states)<- c("stateName", "population", "popOver18", "percentOver18")
+        
+        return(-states)
 }
