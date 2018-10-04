@@ -23,8 +23,12 @@
             "assigned_to": "mfurtado",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "merge.R"
         }
     ],
-    "updated_at": "2018-10-04 17:30:17",
+    "updated_at": "2018-10-04 17:30:28",
     "url": "https://github.com/fall2018-wallace/mark6"
 }
