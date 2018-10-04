@@ -17,4 +17,4 @@ readStates <- function(states)
 }
 
 
-cleanData <- readStates(raw_data)
+cleanData <- readStates(read.csv(raw_data))
