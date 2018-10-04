@@ -15,3 +15,6 @@ readStates <- function(states)
         
         return(-states)
 }
+
+
+cleanData <- readStates(raw_data)
