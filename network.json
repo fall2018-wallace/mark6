@@ -85,6 +85,17 @@
             ],
             "source": "Hist_Plotter.R",
             "target": "Hist_Rap.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "MergedData",
+                    "output": "MergedData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "Box_Plotter.R"
         }
     ],
     "nodes": [
@@ -128,6 +139,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 01:53:11",
+    "updated_at": "2018-10-11 01:53:27",
     "url": "https://github.com/fall2018-wallace/mark6"
 }
