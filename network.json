@@ -165,8 +165,12 @@
         },
         {
             "name": "Box_Mur.png"
+        },
+        {
+            "desc": "Performs step C ",
+            "name": "MurderPlotter.R"
         }
     ],
-    "updated_at": "2018-10-11 01:58:44",
+    "updated_at": "2018-10-11 02:09:34",
     "url": "https://github.com/fall2018-wallace/mark6"
 }
