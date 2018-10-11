@@ -178,10 +178,15 @@
             "name": "Box_Mur.png"
         },
         {
+            "assigned_to": "mfurtado",
             "desc": "Performs step C ",
-            "name": "MurderPlotter.R"
+            "name": "MurderPlotter.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "BarMurders.png"
         }
     ],
-    "updated_at": "2018-10-11 02:09:50",
+    "updated_at": "2018-10-11 02:44:43",
     "url": "https://github.com/fall2018-wallace/mark6"
 }
