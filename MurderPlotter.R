@@ -5,6 +5,7 @@ library(ggplot2)
 x=MergedData$population*MergedData$Murder
 NoOfMurders=x/100000 
 NoOfMurders
+MergedData
 MergedData$TotMurders<-NoOfMurders
 
 #8:Generate a bar chart, with the number of murders per state
