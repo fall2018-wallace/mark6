@@ -127,6 +127,16 @@
             ],
             "source": "MergeArrests.R",
             "target": "MurderPlotter.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "BarMurders",
+                    "type": "png"
+                }
+            ],
+            "source": "MurderPlotter.R",
+            "target": "BarMurders.png"
         }
     ],
     "nodes": [
@@ -187,6 +197,6 @@
             "name": "BarMurders.png"
         }
     ],
-    "updated_at": "2018-10-11 02:44:43",
+    "updated_at": "2018-10-11 02:44:51",
     "url": "https://github.com/fall2018-wallace/mark6"
 }
