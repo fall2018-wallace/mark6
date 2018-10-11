@@ -195,8 +195,11 @@
         },
         {
             "name": "BarMurders.png"
+        },
+        {
+            "name": "BarMurdersNew.png"
         }
     ],
-    "updated_at": "2018-10-11 02:44:51",
+    "updated_at": "2018-10-11 02:45:03",
     "url": "https://github.com/fall2018-wallace/mark6"
 }
