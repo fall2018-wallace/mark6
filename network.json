@@ -129,16 +129,21 @@
             "name": "Hist_Rap.png"
         },
         {
+            "assigned_to": "mfurtado",
             "desc": "Box plotter",
-            "name": "Box_Plotter.R"
+            "name": "Box_Plotter.R",
+            "task_status": "in progress"
         },
         {
             "assigned_to": "mfurtado",
             "desc": "Creates Histogram ",
             "name": "Hist_Plotter.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "Box_Pop.png"
         }
     ],
-    "updated_at": "2018-10-11 01:53:27",
+    "updated_at": "2018-10-11 01:57:53",
     "url": "https://github.com/fall2018-wallace/mark6"
 }
