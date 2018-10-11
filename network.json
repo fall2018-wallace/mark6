@@ -24,6 +24,170 @@
             ],
             "source": "clean.R",
             "target": "MergeArrests.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "MergedData",
+                    "output": "MergedData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "Hist_Plotter.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plotPop",
+                    "type": "png"
+                }
+            ],
+            "source": "Hist_Plotter.R",
+            "target": "Hist_Pop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plotMur",
+                    "type": "png"
+                }
+            ],
+            "source": "Hist_Plotter.R",
+            "target": "Hist_Mur.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plotAss",
+                    "type": "png"
+                }
+            ],
+            "source": "Hist_Plotter.R",
+            "target": "Hist_Asa.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plotUrpop",
+                    "type": "png"
+                }
+            ],
+            "source": "Hist_Plotter.R",
+            "target": "Hist_Urpop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plotRap",
+                    "type": "png"
+                }
+            ],
+            "source": "Hist_Plotter.R",
+            "target": "Hist_Rap.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "MergedData",
+                    "output": "MergedData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "Box_Plotter.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Box_Pop",
+                    "type": "png"
+                }
+            ],
+            "source": "Box_Plotter.R",
+            "target": "Box_Pop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Box_Mur",
+                    "type": "png"
+                }
+            ],
+            "source": "Box_Plotter.R",
+            "target": "Box_Mur.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "MergedData",
+                    "output": "MergedData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "MurderPlotter.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "BarMurders",
+                    "type": "png"
+                }
+            ],
+            "source": "MurderPlotter.R",
+            "target": "BarMurders.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "BarMurdersNew",
+                    "type": "png"
+                }
+            ],
+            "source": "MurderPlotter.R",
+            "target": "BarMurdersNew.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "BarMurdersAsc",
+                    "type": "png"
+                }
+            ],
+            "source": "MurderPlotter.R",
+            "target": "BarMurdersAsc.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "BarMurdersOvrET",
+                    "type": "png"
+                }
+            ],
+            "source": "MurderPlotter.R",
+            "target": "BarMurdersOvrET.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "MergedData",
+                    "output": "MergedData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "Scatter.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "BoxPlotPop",
+                    "type": "png"
+                }
+            ],
+            "source": "Scatter.R",
+            "target": "BoxPlotPop.png"
         }
     ],
     "nodes": [
@@ -36,12 +200,72 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "not assigned",
+            "assigned_to": "mfurtado",
             "desc": "",
             "name": "MergeArrests.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
+        },
+        {
+            "name": "Hist_Pop.png"
+        },
+        {
+            "name": "Hist_Mur.png"
+        },
+        {
+            "name": "Hist_Asa.png"
+        },
+        {
+            "name": "Hist_Urpop.png"
+        },
+        {
+            "name": "Hist_Rap.png"
+        },
+        {
+            "assigned_to": "mfurtado",
+            "desc": "Box plotter",
+            "name": "Box_Plotter.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "mfurtado",
+            "desc": "Creates Histogram ",
+            "name": "Hist_Plotter.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "Box_Pop.png"
+        },
+        {
+            "name": "Box_Mur.png"
+        },
+        {
+            "assigned_to": "mfurtado",
+            "desc": "Performs step C ",
+            "name": "MurderPlotter.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "BarMurders.png"
+        },
+        {
+            "name": "BarMurdersNew.png"
+        },
+        {
+            "name": "BarMurdersAsc.png"
+        },
+        {
+            "name": "BarMurdersOvrET.png"
+        },
+        {
+            "assigned_to": "mfurtado",
+            "desc": "Step D execution",
+            "name": "Scatter.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "BoxPlotPop.png"
         }
     ],
-    "updated_at": "2018-10-04 17:33:40",
+    "updated_at": "2018-10-11 02:52:32",
     "url": "https://github.com/fall2018-wallace/mark6"
 }
