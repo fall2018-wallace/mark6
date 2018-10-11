@@ -65,6 +65,16 @@
             ],
             "source": "Plotter.R",
             "target": "Hist_Asa.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plotUrpop",
+                    "type": "png"
+                }
+            ],
+            "source": "Plotter.R",
+            "target": "Hist_Urpop.png"
         }
     ],
     "nodes": [
@@ -101,6 +111,6 @@
             "name": "Hist_Urpop.png"
         }
     ],
-    "updated_at": "2018-10-11 01:49:59",
+    "updated_at": "2018-10-11 01:50:10",
     "url": "https://github.com/fall2018-wallace/mark6"
 }
