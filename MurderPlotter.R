@@ -22,8 +22,8 @@ BarMurdersNew<-ggplot(MergedData,aes(x=stateName,y=TotMurders)) + geom_col() + t
 
 
 #10:Generate a new bar chart, the same as in the previous step, but also sort the x-axis by the murder rate
-DataAscending<-MergedData[order(MergedData$TotMurders),]
-BarMurdersAsc<-ggplot(DataAscending,aes(x=stateName,y=TotMurders)) + geom_col() + theme(axis.text.x=element_text(angle=90,hjust=1)) + ggtitle("Total Murders")
+#DataAscending<-MergedData[order(MergedData$TotMurders),]
+BarMurdersAsc<-ggplot(DataAscending,aes(x=reorder(stateName,TotMurders),y=TotMurders)) + geom_col() + theme(axis.text.x=element_text(angle=90,hjust=1)) + ggtitle("Total Murders")
 
 
 #11:Generate a third bar chart, the same as the previous step, but also showing percentOver18 as the color of the bar
