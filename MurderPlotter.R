@@ -3,5 +3,5 @@
 x=MergedData$population*MergedData$Murder
 NoOfMurders=x/100000 # rate provided was per 100,1000
 NoOfMurders
-MergedData
+MergedData$TotMurders<-NoOfMurders
 
