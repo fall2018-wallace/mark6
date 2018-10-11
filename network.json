@@ -34,7 +34,7 @@
                 }
             ],
             "source": "MergeArrests.R",
-            "target": "Plotter.R"
+            "target": "Hist_Plotter.R"
         },
         {
             "ports": [
@@ -43,7 +43,7 @@
                     "type": "png"
                 }
             ],
-            "source": "Plotter.R",
+            "source": "Hist_Plotter.R",
             "target": "Hist_Pop.png"
         },
         {
@@ -53,7 +53,7 @@
                     "type": "png"
                 }
             ],
-            "source": "Plotter.R",
+            "source": "Hist_Plotter.R",
             "target": "Hist_Mur.png"
         },
         {
@@ -63,7 +63,7 @@
                     "type": "png"
                 }
             ],
-            "source": "Plotter.R",
+            "source": "Hist_Plotter.R",
             "target": "Hist_Asa.png"
         },
         {
@@ -73,7 +73,7 @@
                     "type": "png"
                 }
             ],
-            "source": "Plotter.R",
+            "source": "Hist_Plotter.R",
             "target": "Hist_Urpop.png"
         },
         {
@@ -83,7 +83,7 @@
                     "type": "png"
                 }
             ],
-            "source": "Plotter.R",
+            "source": "Hist_Plotter.R",
             "target": "Hist_Rap.png"
         }
     ],
@@ -103,12 +103,6 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "mfurtado",
-            "desc": "Creates Histogram and other plots",
-            "name": "Plotter.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "Hist_Pop.png"
         },
         {
@@ -122,8 +116,14 @@
         },
         {
             "name": "Hist_Rap.png"
+        },
+        {
+            "assigned_to": "mfurtado",
+            "desc": "Creates Histogram and other plots",
+            "name": "Hist_Plotter.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 01:50:31",
+    "updated_at": "2018-10-11 01:52:05",
     "url": "https://github.com/fall2018-wallace/mark6"
 }
