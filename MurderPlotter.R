@@ -15,3 +15,5 @@ BarMurders<-ggplot(MergedData,aes(x=stateName,y=TotMurders)) + geom_col()
 #Rotate text (on the X axis), so we can see x labels, also add a title named “Total Murders”.
 
 ggplot(MergedData,aes(x=stateName,y=TotMurders)) + geom_col() + theme(axis.text.x=element_text(angle=90,hjust=1)) + ggtitle("Total Murders")
+#theme() allows modification of all non-data components
+#ggtitle() allows to add title to the diagram
