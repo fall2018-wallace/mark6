@@ -45,6 +45,16 @@
             ],
             "source": "Plotter.R",
             "target": "Hist_Pop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plotMur",
+                    "type": "png"
+                }
+            ],
+            "source": "Plotter.R",
+            "target": "Hist_Mur.png"
         }
     ],
     "nodes": [
@@ -75,6 +85,6 @@
             "name": "Hist_Mur.png"
         }
     ],
-    "updated_at": "2018-10-11 01:48:49",
+    "updated_at": "2018-10-11 01:49:09",
     "url": "https://github.com/fall2018-wallace/mark6"
 }
