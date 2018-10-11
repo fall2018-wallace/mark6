@@ -234,8 +234,12 @@
         },
         {
             "name": "BarMurdersOvrET.png"
+        },
+        {
+            "desc": "Step D execution",
+            "name": "Scatter.R"
         }
     ],
-    "updated_at": "2018-10-11 02:45:57",
+    "updated_at": "2018-10-11 02:47:36",
     "url": "https://github.com/fall2018-wallace/mark6"
 }
