@@ -35,6 +35,16 @@
             ],
             "source": "MergeArrests.R",
             "target": "Plotter.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plotPop",
+                    "type": "png"
+                }
+            ],
+            "source": "Plotter.R",
+            "target": "Hist_Pop.png"
         }
     ],
     "nodes": [
@@ -62,6 +72,6 @@
             "name": "Hist_Pop.png"
         }
     ],
-    "updated_at": "2018-10-11 01:47:48",
+    "updated_at": "2018-10-11 01:48:03",
     "url": "https://github.com/fall2018-wallace/mark6"
 }
