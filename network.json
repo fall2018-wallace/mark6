@@ -53,10 +53,15 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "mfurtado",
             "desc": "Creates Histogram and other plots",
-            "name": "Plotter.R"
+            "name": "Plotter.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "Hist_Pop.png"
         }
     ],
-    "updated_at": "2018-10-11 01:35:31",
+    "updated_at": "2018-10-11 01:47:48",
     "url": "https://github.com/fall2018-wallace/mark6"
 }
