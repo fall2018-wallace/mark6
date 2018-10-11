@@ -3,7 +3,7 @@
 #4)	Create a histogram using GGPLOT for the population and a different histogram for the murder rate
 
 MergedData
-
+library(ggplot2) #Include Library
 options(scipen=999)
 plotPop<-ggplot(MergedData,aes(x=population))+geom_histogram(bins = 50, color = "black", fill = "red")
 
