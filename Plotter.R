@@ -5,6 +5,7 @@
 MergedData
 library(ggplot2) #Include Library
 options(scipen=999)
+#Following functions create histogram based on the variable provided, and column to be considered for the histogram
 plotPop<-ggplot(MergedData,aes(x=population))+geom_histogram(bins = 50, color = "black", fill = "red")
 
 plotMur<-ggplot(MergedData,aes(x=Murder))+geom_histogram(bins = 50, color = "black", fill = "green")
