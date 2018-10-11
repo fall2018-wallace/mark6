@@ -55,6 +55,16 @@
             ],
             "source": "Plotter.R",
             "target": "Hist_Mur.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plotAss",
+                    "type": "png"
+                }
+            ],
+            "source": "Plotter.R",
+            "target": "Hist_Asa.png"
         }
     ],
     "nodes": [
@@ -88,6 +98,6 @@
             "name": "Hist_Asa.png"
         }
     ],
-    "updated_at": "2018-10-11 01:49:31",
+    "updated_at": "2018-10-11 01:49:43",
     "url": "https://github.com/fall2018-wallace/mark6"
 }
