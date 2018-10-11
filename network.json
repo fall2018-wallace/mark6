@@ -122,8 +122,12 @@
             "desc": "Creates Histogram and other plots",
             "name": "Hist_Plotter.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "Box plotter",
+            "name": "Box_Plotter.R"
         }
     ],
-    "updated_at": "2018-10-11 01:52:05",
+    "updated_at": "2018-10-11 01:52:51",
     "url": "https://github.com/fall2018-wallace/mark6"
 }
