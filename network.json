@@ -178,6 +178,16 @@
             ],
             "source": "MergeArrests.R",
             "target": "Scatter.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "BoxPlotPop",
+                    "type": "png"
+                }
+            ],
+            "source": "Scatter.R",
+            "target": "BoxPlotPop.png"
         }
     ],
     "nodes": [
@@ -256,6 +266,6 @@
             "name": "BoxPlotPop.png"
         }
     ],
-    "updated_at": "2018-10-11 02:52:26",
+    "updated_at": "2018-10-11 02:52:32",
     "url": "https://github.com/fall2018-wallace/mark6"
 }
