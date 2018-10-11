@@ -11,4 +11,7 @@ MergedData$TotMurders<-NoOfMurders
 BarMurders<-ggplot(MergedData,aes(x=stateName,y=TotMurders)) + geom_col()
 
 
-#9)	Generate a bar chart, with the number of murders per state. Rotate text (on the X axis), so we can see x labels, also add a title named “Total Murders”.
+#9)	Generate a bar chart, with the number of murders per state. 
+#Rotate text (on the X axis), so we can see x labels, also add a title named “Total Murders”.
+
+ggplot(MergedData,aes(x=stateName,y=TotMurders)) + geom_col() + theme(axis.text.x=element_text(angle=90,hjust=1)) + ggtitle("Total Murders")
