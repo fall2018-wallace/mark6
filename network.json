@@ -247,10 +247,15 @@
             "name": "BarMurdersOvrET.png"
         },
         {
+            "assigned_to": "mfurtado",
             "desc": "Step D execution",
-            "name": "Scatter.R"
+            "name": "Scatter.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "BoxPlotPop.png"
         }
     ],
-    "updated_at": "2018-10-11 02:48:05",
+    "updated_at": "2018-10-11 02:52:26",
     "url": "https://github.com/fall2018-wallace/mark6"
 }
