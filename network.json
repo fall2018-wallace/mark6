@@ -106,6 +106,16 @@
             ],
             "source": "Box_Plotter.R",
             "target": "Box_Pop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Box_Mur",
+                    "type": "png"
+                }
+            ],
+            "source": "Box_Plotter.R",
+            "target": "Box_Mur.png"
         }
     ],
     "nodes": [
@@ -157,6 +167,6 @@
             "name": "Box_Mur.png"
         }
     ],
-    "updated_at": "2018-10-11 01:58:33",
+    "updated_at": "2018-10-11 01:58:44",
     "url": "https://github.com/fall2018-wallace/mark6"
 }
