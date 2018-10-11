@@ -22,6 +22,6 @@ BarMurdersNew<-ggplot(MergedData,aes(x=stateName,y=TotMurders)) + geom_col() + t
 
 
 #10:Generate a new bar chart, the same as in the previous step, but also sort the x-axis by the murder rate
-
-ggplot(MergedData,aes(x=reorder(stateName,TotMurders),y=TotMurders)) + geom_col() + theme(axis.text.x=element_text(angle=90,hjust=1)) + ggtitle("Total Murders")
+DataAscending<-MergedData[order(MergedData$TotMurders),]
+ggplot(DataAscending,aes(x=stateName,y=TotMurders)) + geom_col() + theme(axis.text.x=element_text(angle=90,hjust=1)) + ggtitle("Total Murders")
 #reorder() function is used to sort the diagram data order
