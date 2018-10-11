@@ -137,6 +137,16 @@
             ],
             "source": "MurderPlotter.R",
             "target": "BarMurders.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "BarMurdersNew",
+                    "type": "png"
+                }
+            ],
+            "source": "MurderPlotter.R",
+            "target": "BarMurdersNew.png"
         }
     ],
     "nodes": [
@@ -200,6 +210,6 @@
             "name": "BarMurdersNew.png"
         }
     ],
-    "updated_at": "2018-10-11 02:45:03",
+    "updated_at": "2018-10-11 02:45:12",
     "url": "https://github.com/fall2018-wallace/mark6"
 }
