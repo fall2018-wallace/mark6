@@ -5,13 +5,13 @@
 MergedData
 
 options(scipen=999)
-ggplot(MergedData,aes(x=population))+geom_histogram(bins = 50, color = "black", fill = "red")
+plotPop<-ggplot(MergedData,aes(x=population))+geom_histogram(bins = 50, color = "black", fill = "red")
 
-ggplot(MergedData,aes(x=Murder))+geom_histogram(bins = 50, color = "black", fill = "green")
+plotMur<-ggplot(MergedData,aes(x=Murder))+geom_histogram(bins = 50, color = "black", fill = "green")
 
-ggplot(MergedData,aes(x=Assault))+geom_histogram(bins = 50, color = "black", fill = "red")
+plotAss<-ggplot(MergedData,aes(x=Assault))+geom_histogram(bins = 50, color = "black", fill = "blue")
 
-ggplot(MergedData,aes(x=UrbanPop))+geom_histogram(bins = 50, color = "green", fill = "green")
+plotUrpop<-ggplot(MergedData,aes(x=UrbanPop))+geom_histogram(bins = 50, color = "black", fill = "yellow")
 
-ggplot(MergedData,aes(x=Rape))+geom_histogram(bins = 50, color = "yellow", fill = "yellow")
+plotRap<-ggplot(MergedData,aes(x=Rape))+geom_histogram(bins = 50, color = "black", fill = "blue")
 
