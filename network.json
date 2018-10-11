@@ -24,6 +24,17 @@
             ],
             "source": "clean.R",
             "target": "MergeArrests.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "MergedData",
+                    "output": "MergedData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "Plotter.R"
         }
     ],
     "nodes": [
@@ -46,6 +57,6 @@
             "name": "Plotter.R"
         }
     ],
-    "updated_at": "2018-10-11 01:35:00",
+    "updated_at": "2018-10-11 01:35:31",
     "url": "https://github.com/fall2018-wallace/mark6"
 }
