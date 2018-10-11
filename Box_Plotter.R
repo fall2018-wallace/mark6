@@ -9,3 +9,4 @@ Box_Mur<-ggplot(MergedData,aes(x=factor(0),y=Murder))+geom_boxplot()
 # Both box plot and histogram serve different purpose,
 # Histogram provides count of every entry, and box plot provides distribution.
 # In our case, for specifying population, histogram serves the purpose, 
+# Whereas in specifying murder rate, box plot provides more insights.
